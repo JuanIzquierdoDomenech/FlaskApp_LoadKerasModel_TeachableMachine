@@ -1,5 +1,5 @@
 # FlaskApp_LoadKerasModel_TeachableMachine
-This project is a Flask App that loads a Keras model that classifies images, so the project can be used as a reference for other projects.
+This project is a Flask App that loads a Keras model that classifies images, trained at [Teachable Machine](https://teachablemachine.withgoogle.com), so the project can be used as a reference for other projects.
 
 ## Installation
 1. Pull the code
