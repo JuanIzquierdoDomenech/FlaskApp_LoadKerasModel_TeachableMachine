@@ -20,8 +20,9 @@ This project is a Flask App that loads a Keras model that classifies images, so 
 `python server.py`
 
 The server accepts an image via **POST**, adding the image as form-data with the key *imagefile*
+*e.g.*
+![Demo with Postman](images/postman_demo.png)
 
-![Demo with Postman](https://raw.githubusercontent.com/JuanIzquierdoDomenech/FlaskApp_LoadKerasModel_TeachableMachine/master/images/postman_demo.png)
 
 ## Convert .h5 to .pb
 In the models folder, there is a keras model `.h5` and a script that converts it to `.pb`
