@@ -1,2 +1,2 @@
-0 Thumbsup
-1 Thumbsdown
+0 Naranja
+1 Negro

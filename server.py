@@ -45,4 +45,4 @@ def predict_req():
 	#return labels[0] + " proba: " + str(predictions[0][0]) + "\n" + labels[0] + " proba: " + str(predictions[0][1])
 
 if __name__ == '__main__':
-	app.run()
+	app.run(host = '192.168.1.33',port=5000)
