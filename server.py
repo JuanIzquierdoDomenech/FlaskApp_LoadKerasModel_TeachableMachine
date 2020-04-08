@@ -3,7 +3,6 @@ import tensorflow.keras
 import jsonpickle
 from PIL import Image, ImageOps
 import numpy as np
-import cv2
 import os
 
 model = tensorflow.keras.models.load_model('model/keras_model.h5', compile=False)
@@ -45,4 +44,4 @@ def predict_req():
 	#return labels[0] + " proba: " + str(predictions[0][0]) + "\n" + labels[0] + " proba: " + str(predictions[0][1])
 
 if __name__ == '__main__':
-	app.run(host = '192.168.1.33',port=5000)
+	app.run(port=5000)
